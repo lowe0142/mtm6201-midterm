@@ -24,3 +24,7 @@
     width: 100%;
     height: 700px;
 }
+
+.table , .order {
+    width: 50%;
+}
