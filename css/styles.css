@@ -15,3 +15,7 @@
 .instapromo , .instapromo2 , .instapromo3 , .instapromo4 , .instapromo5 , .instapromo6{
     width: 20%;
 }
+
+.fullbody , .closeup {
+    width: 25%;
+}
