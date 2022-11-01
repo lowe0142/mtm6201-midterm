@@ -19,3 +19,8 @@
 .fullbody , .closeup {
     width: 25%;
 }
+
+.display { 
+    width: 100%;
+    height: 800px;
+}
