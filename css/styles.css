@@ -1,9 +1,5 @@
-.body {
-    background-color: antiquewhite;
-}
-
-.img-logo {
-    width: 50%;
+body {
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .donut1 , .donut2 , .donut3 {
