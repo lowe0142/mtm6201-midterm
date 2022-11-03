@@ -36,6 +36,8 @@ body {
     grid-template-columns: repeat(4, 1fr); 
     text-decoration: none;
 }
-.nav-home, .nav-contact, .nav-story{
+.nav-home, .nav-contact, .nav-story {
     text-decoration: none;
 }
+
+
