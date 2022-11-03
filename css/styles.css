@@ -74,6 +74,14 @@ body {
 
 .donutmind {
     position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .domind {
+  position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
