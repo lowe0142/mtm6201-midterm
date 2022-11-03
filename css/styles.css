@@ -1,7 +1,9 @@
 body {
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+.glogo{
+    width: 40%;
+}
 .donut1 , .donut2 , .donut3 {
     width: 20%;
     height: 20%;
@@ -27,4 +29,13 @@ body {
 
 .table , .order {
     width: 50%;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+}
+
+.topnav {
+    text-decoration: none;
 }
