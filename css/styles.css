@@ -1,6 +1,7 @@
 body {
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .glogo{
     width: 40%;
 }
@@ -33,11 +34,26 @@ body {
 
 .banner {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    text-decoration: none;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: center;
 }
 .nav-home, .nav-contact, .nav-story {
     text-decoration: none;
 }
 
+.topnav{
+    margin: auto;
+}
 
+.glogo {
+    width: 50%;
+    float: right;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    padding-left: 20px;
+}
