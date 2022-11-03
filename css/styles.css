@@ -34,8 +34,8 @@ body {
 .banner {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
+    text-decoration: none;
 }
-
-.topnav {
+.nav-home, .nav-contact, .nav-story{
     text-decoration: none;
 }
