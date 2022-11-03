@@ -1,6 +1,13 @@
 body {
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+h1 {
+    color: palevioletred;
+}
+
+h2 {
+    color: pink;
+}
 
 .glogo{
     width: 40%;
