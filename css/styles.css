@@ -3,10 +3,16 @@ body {
 }
 h1 {
     color: palevioletred;
+    font-size: 50px;
 }
 
 h2 {
     color: pink;
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
 }
 
 .glogo{
@@ -23,7 +29,7 @@ h2 {
 }
 
 .instapromo , .instapromo2 , .instapromo3 , .instapromo4 , .instapromo5 , .instapromo6{
-    width: 50%;
+    width: 75%;
 }
 
 .fullbody , .closeup {
@@ -44,6 +50,7 @@ h2 {
     grid-auto-flow: column;
     align-items: center;
     justify-items: center;
+    background-color: papayawhip;
 }
 .nav-home, .nav-contact, .nav-story {
     text-decoration: none;
@@ -99,7 +106,17 @@ h2 {
 
   .socialgallery{
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 400px 400px;
+    grid-gap: 25px;
+    padding-top: 25px;
+    justify-content: center;
   }
 
+.socialpromo {
+    background-color: papayawhip;
+}
+
+footer{
+    background-color: papayawhip ;
+}
