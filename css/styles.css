@@ -108,13 +108,13 @@ p{
     font-size: 20px;
   }
 
-  .socialgallery{
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 400px 400px 400px;
-    grid-gap: 25px;
-    padding-top: 25px;
-    justify-content: center;
+  .productbutton,{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: pink;
+    font-size: 20px;
   }
 
 .socialpromo {
@@ -127,4 +127,16 @@ p{
 
 footer{
     background-color: papayawhip ;
+}
+
+button {
+    background-color: pink;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
 }
