@@ -1,25 +1,27 @@
+/*Adds smooth scrolling to website*/
 html {
     scroll-behavior: smooth;
 }
-
+/*Established font for entire website*/
 body {
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/*Sets h1 properties like colour and font size*/
 h1 {
     color: palevioletred;
     font-size: 50px;
 }
-
+/*Sets h2 properties like colour and font size*/
 h2 {
     color: pink;
     font-size: 45px;
 }
-
+/*Establishes width and height of the pink background*/
 .pinkback {
     width: 100%;
     max-height: 800px;
 }
-
+/*Adds a border to the text box beside logo*/
 .infologo {
     border: 4px solid papayawhip;
     position: absolute;
@@ -32,7 +34,7 @@ h2 {
     height: 200px;
     background-color: white
 }
-
+/*Sets logo to the right of page and sets a width*/
 .glogo{
     width: 40%;
     position: absolute;
@@ -41,12 +43,13 @@ h2 {
     transform: translate(-50%, -50%);
 }
 .glogo2{
-    width: 30%;
+    width: 40%;
     position: absolute;
-    top: 35%;
-    left: 80%;
+    top: 50%;
+    left: 85%;
     transform: translate(-50%, -50%);
 }
+/*Sets h2 on top of pink background and ads a color and size*/
 .logoh2 {
     position: absolute;
     top: 30%;
@@ -55,25 +58,21 @@ h2 {
     color: white;
     font-size: 70px;
 }
-
+/*Establishes width for image gallery*/
 .donut1 , .donut2 , .donut3 {
     width: 400px;
     height: 500px;
 }
-
+/*Sets dimensions for banner image*/
 .bannerimg {
     width: 80%;
     height: 700px;
 }
-
+/*Dimensions for instagram social gallery layout*/
 .instapromo , .instapromo2 , .instapromo3 , .instapromo4 , .instapromo5 , .instapromo6{
     width: 200px;
 }
-
-.table , .order {
-    width: 50%;
-}
-
+/*Establishes yellow background for Meet The Owner and aligns text to center*/
 .banner {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -83,43 +82,48 @@ h2 {
     height: 150px;
     margin-bottom: 25px;
 }
+/*Edits nav container by adding color and removing underline*/
 li a {
     text-decoration: none;
     color: lightpink
 }
+/*Changes to underline and gold color when mouse hovers*/
 li a:hover{
     text-decoration: underline;
     color:goldenrod;
 
 }
+/*Removes underline*/
 ul {
     list-style-type: none;
 }
+/*Establishes font size and inlines list items*/
 li {
     display: inline;
     padding: 50px;
     font-size: 25px;
 }
-
+/*Adds dimensions for logo and floats image to right of page*/
 .glogo {
-    width: 50%;
+    width: 60%;
     float: right;
     padding: 10px;
-    padding-top: 10px;
+    padding-top: 20px;
+    margin-top: 60px;
     padding-bottom: 10px;
 }
-
+/*Adds animation sequence and opacity on logo hover*/
 .glogo:hover {
     animation-name: jump;
     animation-duration: 2s;
     opacity:0.1;
     transition: opacity 0.3s;
 }
-
+/*Keyframe creates jump animation for logo*/
 @keyframes jump {
     50% { transform: translate(0, -90px); }
-  }
-
+}
+/*Places image gallery in grid format*/
 .gallery {
     display: grid;
     grid-template-columns: auto auto auto; 
@@ -131,12 +135,12 @@ li {
     justify-content: space-evenly;
 }
 
-
+/*Image banner to center to add text overtop*/
 .imagebanner {
     text-align: center;
     position: relative;
 }
-
+/*Edits h2 class and places over banner image*/
 .donutmind {
     position: absolute;
     top: 40%;
@@ -145,7 +149,7 @@ li {
     color: white;
     font-size: 50px;
   }
-
+/*Edits h2 class and places over banner image*/
   .domind {
     position: absolute;
     top: 60%;
@@ -154,7 +158,7 @@ li {
     color: black;
     font-size: 30px;
   }
-
+/*Adds yellow background to social media promo text and aligns center*/
 .socialpromo {
     background-color: papayawhip;
     margin-top: 25px;
@@ -163,15 +167,16 @@ li {
     padding: 50px;
     text-align: center;
 }
-
+/*Edits footer color and aligns center*/
 footer{
     background-color: papayawhip ;
     width: 100%;
     height: 50px;
     text-align: center;
     margin: auto;
+    margin-top: 25px;
 }
-
+/*Adds styling to form send button*/
 button {
     background-color: pink;
     border: none;
@@ -186,30 +191,30 @@ button {
     margin-top: 20px;
 
 }
-
+/*Changes button color on hover*/
 button:hover {
     background: goldenrod;
 }
-
+/*Adds flex to social media image gallery to center and align them*/
 .socialgallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+/*Turns social media icons purple*/
 a {
     text-decoration: none;
     color: purple;
 }
 
 /*ABOUT PAGE*/
-
+/*Opening image on about page, center*/
 .display { 
     width: 100%;
     height: 700px;
     margin-top: 10px;
 }
-
+/*Story h1, centered to place over display image*/
 .story {
     position: absolute;
     top: 50%;
@@ -218,12 +223,11 @@ a {
     color: white;
     font-size: 80px;
 }
-
+/*Changes font size*/
 .creating {
     font-size: 30px;
-    
 }
-
+/*Adds two images of baking to right of page*/
 .whip , .bake {
     width: 20%;
     height: 500px;
@@ -231,7 +235,10 @@ a {
     padding-top: 25px;
     padding-right: 40px;
 }
-
+.whip {
+    margin-right: 30px;
+}
+/*Edits h2 class and places over banner image*/
 .creates {
     background-color: white;
     border: 8px solid papayawhip;
@@ -244,19 +251,19 @@ a {
     margin-top: 50px;
     padding-left: 15px;
 }
-
+/*Edits p class and places over banner image*/
 .create {
     padding-top: 40px;
     padding-left: 95px;
     color: pink;
 }
-
+/*Edits bio section photo to place text overtop*/
 .bio {
     position: relative;
     text-align: center;
     color: white;
 }
-
+/*Edits bio section photo to place text overtop*/
 .biop {
     position: absolute;
     top: 500px;
@@ -264,16 +271,17 @@ a {
     transform: translate(-50%, -50%);
     font-size: 40px;
 }
+/*Edits story section photo dimensions*/
 .bioback {
     width: 70%;
     height: 50%;
     padding-top: 25px;
 }
-
+/*Configured headshot photos sizes*/
 .owner , .ownerpic {
     width: 50%;
 }
-
+/*Adds yellow background to Meet the Owner h2, centered*/
 .meet {
     display: grid;
     grid-template-columns: 1fr;
@@ -283,30 +291,29 @@ a {
     height: 150px;
     width: 100%;
 }
-
+/*Places owner bio pics in grid to have them side by side*/
 .biopic {
     display: flex;
 }
-
+/*Adds border box to comapny owners biography*/
 .gloria {
     font-size: 30px;
     background-color: papayawhip;
-    height: 200px;
-    width: 1000px;
-    color: pink;
+    height: 150px;
+    width: 1500px;
     border: 3px solid palevioletred;
     border-style: ridge;
     margin: auto;
     margin-top: 20px;
 }
-
+/*Places photo gallery to left while spacing them evenly*/
 .room , .smile {
     width: 20%;
     height: 500px;
     padding-left: 40px;
     padding-top: 25px;
 }
-
+/*Floats location information box to left, adds yellow border */
 .location {
     background-color: white;
     border: 8px solid papayawhip;
@@ -321,15 +328,16 @@ a {
     margin-top: 10px;
     padding-left: 15px;
 }
+/*Adds h2 padding to inlign with yellow text box under*/
 .hole {
     padding-left: 20px;
 }
+/*Floats holy moley text to right of page*/
 .store {
     padding-top: 30px;
-    color: pink;
     float: right;
 }
-
+/*Edits social media link promo to center of page*/
 .checkout {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -338,7 +346,7 @@ a {
     text-align: center;
     padding-bottom: 30px;
 }
-
+/*Aligns table to center, adds pink and yellow background border*/
 table, th, td {
     border: 1px solid;
     border-color: palevioletred;
@@ -348,16 +356,16 @@ table, th, td {
     margin: auto;
     text-align: center;
 }
-
+/*Text align center for form information*/
 .contacth2 , .geth2 , .storeh2 , .map  , .name ,.email ,.message{
     text-align: center;
 }
-
+/*Edits input area for costumer communication*/
 input {
     width: 95%;
     height: 200px;
 }
-
+/*Adds border around input form*/
 .name , .email , .message {
     border: 1px solid;
     border-color: palevioletred;
