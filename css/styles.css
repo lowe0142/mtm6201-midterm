@@ -375,3 +375,6 @@ input {
     background-color: papayawhip;
     margin: auto;
 }
+.skip-links a{
+    color: white;
+}
