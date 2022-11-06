@@ -376,5 +376,13 @@ input {
     margin: auto;
 }
 .skip-links a{
-    color: white;
+    position: absolute;
+    top: -3em;
+    background-color: black;
+    color:white;
 }
+.skip-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
