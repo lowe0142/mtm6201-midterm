@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -16,20 +20,16 @@ h2 {
 }
 
 .infologo {
-    border: solid white;
+    border: 4px solid papayawhip;
     position: absolute;
     top: 50%;
     left: 30%;
     transform: translate(-50%, -50%);
-    color:black;
+    color: palevioletred;
     font-size: 40px;
     width: 1000px;
-    height: 250px;
-
-}
-}
-p{
-    font-size: 30px;
+    height: 200px;
+    background-color: white
 }
 
 .glogo{
@@ -38,16 +38,21 @@ p{
     top: 50%;
     left: 75%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-size: 20px;
+}
+.glogo2{
+    width: 30%;
+    position: absolute;
+    top: 35%;
+    left: 80%;
+    transform: translate(-50%, -50%);
 }
 .logoh2 {
     position: absolute;
-    top: 20%;
-    right: 55%;
+    top: 30%;
+    left: 500px;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .donut1 , .donut2 , .donut3 {
@@ -61,16 +66,7 @@ p{
 }
 
 .instapromo , .instapromo2 , .instapromo3 , .instapromo4 , .instapromo5 , .instapromo6{
-    width: 20%;
-}
-
-.fullbody , .closeup {
-    width: 25%;
-}
-
-.display { 
-    width: 100%;
-    height: 700px;
+    width: 200px;
 }
 
 .table , .order {
@@ -79,17 +75,29 @@ p{
 
 .banner {
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-items: center;
     background-color: papayawhip;
+    height: 150px;
+    margin-bottom: 25px;
 }
-.nav-home, .nav-contact, .nav-story {
+li a {
     text-decoration: none;
+    color: lightpink
 }
+li a:hover{
+    text-decoration: underline;
+    color:goldenrod;
 
-.topnav{
-    margin: auto;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
+    padding: 50px;
+    font-size: 25px;
 }
 
 .glogo {
@@ -100,20 +108,26 @@ p{
     padding-bottom: 10px;
 }
 
-.logo {
-    padding-top: 20px;
-    padding-left: 20px;
+.glogo:hover {
+    animation-name: jump;
+    animation-duration: 2s;
+    opacity:0.1;
+    transition: opacity 0.3s;
 }
+
+@keyframes jump {
+    50% { transform: translate(0, -90px); }
+  }
 
 .gallery {
     display: grid;
     grid-template-columns: auto auto auto; 
     justify-content: center;
     align-content: center; 
-    padding-top: 50px;
-    margin-left: 150px;
-    margin-top: 270px;
-    margin-bottom: 50px;
+    margin-left: 90px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: space-evenly;
 }
 
 
@@ -124,7 +138,7 @@ p{
 
 .donutmind {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -132,33 +146,32 @@ p{
   }
 
   .domind {
-  position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 20px;
-  }
-
-  .productbutton,{
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: pink;
-    font-size: 20px;
-}
+    color: black;
+    font-size: 30px;
+  }
 
 .socialpromo {
     background-color: papayawhip;
-    margin: auto;
-    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
     padding: 50px;
     text-align: center;
 }
 
 footer{
     background-color: papayawhip ;
+    width: 100%;
+    height: 75px;
+}
+
+.footerp {
+    text-align: center;
+    padding-top: 30px;
 }
 
 button {
@@ -166,9 +179,192 @@ button {
     border: none;
     color: white;
     padding: 15px 32px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 25px;
+    position: absolute;
+    right: 500px;
+    margin-top: 20px;
+
+}
+
+button:hover {
+    background: goldenrod;
+}
+
+.socialgallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+/*ABOUT PAGE*/
+
+.display { 
+    width: 100%;
+    height: 700px;
+    margin-top: 10px;
+}
+
+.story {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 80px;
+}
+
+.creating {
+    font-size: 30px;
+    
+}
+
+.whip , .bake {
+    width: 20%;
+    height: 500px;
+    float:right;
+    padding-top: 25px;
+    padding-right: 40px;
+}
+
+.creates {
+    background-color: white;
+    border: 8px solid papayawhip;
+    border-style: ridge;
+    width: 800px;
+    height: 300px;
+    margin-left: 75px;
+    font-size: 25px;
+    line-height: 50px;
+    margin-top: 50px;
+    padding-left: 15px;
+}
+
+.create {
+    padding-top: 40px;
+    padding-left: 95px;
+    color: pink;
+}
+
+.bio {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.biop {
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+.bioback {
+    width: 70%;
+    height: 50%;
+    padding-top: 25px;
+}
+
+.owner , .ownerpic {
+    width: 50%;
+}
+
+.meet {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: papayawhip;
+    height: 150px;
+    width: 100%;
+}
+
+.biopic {
+    display: flex;
+}
+
+.gloria {
+    font-size: 30px;
+    background-color: papayawhip;
+    height: 200px;
+    width: 1000px;
+    color: pink;
+    border: 3px solid palevioletred;
+    border-style: ridge;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.room , .smile {
+    width: 20%;
+    height: 500px;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+.location {
+    background-color: white;
+    border: 8px solid papayawhip;
+    color: black;
+    border-style: ridge;
+    float:right;
+    width: 800px;
+    height: 300px;
+    margin-right: 200px;
+    font-size: 25px;
+    line-height: 50px;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+.hole {
+    padding-left: 20px;
+}
+.store {
+    padding-top: 30px;
+    color: pink;
+    float: right;
+}
+
+.checkout {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-color: palevioletred;
+    height: 50px;
+    width: 800px;
+    background-color: papayawhip;
+    margin: auto;
+    text-align: center;
+}
+
+.contacth2 , .geth2 , .storeh2 , .map  , .name ,.email ,.message{
+    text-align: center;
+}
+
+input {
+    width: 95%;
+    height: 200px;
+}
+
+.name , .email , .message {
+    border: 1px solid;
+    border-color: palevioletred;
+    height: 250px;
+    width: 1000px;
+    background-color: papayawhip;
+    margin: auto;
 }

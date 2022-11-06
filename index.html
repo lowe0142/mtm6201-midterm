@@ -10,12 +10,16 @@
 </head>
 <body>
     <div class="banner">
-        <h1>Glazed and Glorious</h1>
-        <div class="topnav">
-            <div class="nav-home-container"><a href="#home" class="nav-home">HOME</a></div>
-            <div class="nav-about-container"><a href="#about" class="nav-story">ABOUT</a></div>
-            <div class="nav-contact-container"><a href="#contact" class="nav-contact">CONTACT</a></div>
-        </div>
+        <ul class="skip-links">
+            <li><a href="#nav">Skip to main nav</a></li>
+            <li><a href="#main">Skip to main content</a></li>
+          </ul>
+        <h1 role="site header">Glazed and Glorious</h1>
+        <ul class="nav">
+            <li class="nav-home-container"><a href="index.html" class="nav-home">HOME</a></li>
+            <li class="nav-about-container"><a href="about.html" class="nav-story">ABOUT</a></li>
+            <li class="nav-contact-container"><a href="contact.html" class="nav-contact">CONTACT</a></li>
+        </ul>
         <div class="icons">
             <a href="#" class="fa fa-instagram"></a>
             <a href="#" class="fa fa-youtube"></a>
@@ -25,8 +29,8 @@
     <div class="logo">
         <img class="pinkback" src="images/pinkback.jpg" alt="glazedandglorious">
         <img class="glogo" src="images/glogo.png" alt="glazedandglorious">
-        <h2 class="logoh2">We a-dough-re you!</h2>
-        <p class="infologo">Here at Glazed and Glorious we thinks donuts are pretty a-glaze-ing. We offer donuts for every taste bud, wether you like things sweet or savory we got you covered. Come and try one today!</p>
+        <h2 class="logoh2">We a-dough-re donuts</h2>
+        <p class="infologo">Here at Glazed and Glorious we think donuts are pretty a-glaze-ing. We offer donuts for every taste bud, wether you like things sweet or savory we got you covered. Come and try one today!</p>
     </div>
     <div class="gallery">
         <img class="donut1" src="images/donut1.jpg" alt="donutpink">
@@ -36,12 +40,14 @@
     <div class="imagebanner">
         <img class="bannerimg" src="images/banner1.jpg" alt="sprinkledonut">
         <h2 class="donutmind">Donut Mind If I Do! </h2>
-        <h2 class="domind">From The Classic Glazed, Unicorn Love to Brownie Blast, we have a vast selection of flavoured donuts. We even offer customisable options. Explore our menu to see more.</h2>
-        <button type="productbutton">Our Products</button>
+        <h2 class="domind">From The Classic Glazed, Unicorn Love to Brownie Blast, we have a vast selection of flavoured donuts. We even offer customisable options. Explore our products to see more.</h2>
     </div>
     <div class="socialpromo">
-        <h2>Find Us On Instagram</h2>
-        <p>Tag us in your photos at Glazed and Glorious to be featured!</p>
+        <h2 role="instagramsearch">Find Us On Instagram</h2>
+        <p role="tagus">Tag us in your photos @glazednglorious to be featured!</p>
+        <div class="secondig">
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
     </div>
     <div class="socialgallery">
         <img class="instapromo" src="images/insta1.jpg" alt="teengirl">
@@ -51,10 +57,9 @@
         <img class="instapromo5" src="images/insta5.jpg" alt="elder">
         <img class="instapromo6" src="images/insta6.jpg" alt="older">
     </div>
-    <h2 class="instatext">@glazednglorious</h2>
-    <p class="instatext">On Instagram</p>
-    <footer>
-        <h2>&copy; Glazed and Glorious 2022</h2>
+    <footer role="copyright">
+        <p class="footerp">&copy; Glazed and Glorious 2022</p>
+        <a href="#top" aria-label="backtotop">Back to Top</a>
     </footer>
 </body>
 </html>

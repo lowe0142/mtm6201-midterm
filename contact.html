@@ -9,24 +9,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="banner3">
-        <h1>Glazed and Glorious</h1>
-        <div class="logo">
-          <img class="img-logo" src="images/glogo.png" alt="glazedandglorious">
-      </div>
-        <div class="topnav">
-            <div class="nav-home-container"><a href="#home" class="nav-home">HOME</a></div>
-            <div class="nav-about-container"><a href="#about" class="nav-story">ABOUT</a></div>
-            <div class="nav-contact-container"><a href="#contact" class="nav-contact">CONTACT</a></div>
-        </div>
-        <div class="icons">
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-youtube"></a>
-            <a href="#" class="fa fa-twitter"></a>
-        </div>
+  <div class="banner">
+    <ul class="skip-links">
+      <li><a href="#nav">Skip to main nav</a></li>
+      <li><a href="#main">Skip to main content</a></li>
+    </ul>
+    <h1 role="site header">Glazed and Glorious</h1>
+    <ul class="nav">
+        <li class="nav-home-container"><a href="index.html" class="nav-home">HOME</a></li>
+        <li class="nav-about-container"><a href="about.html" class="nav-about">ABOUT</a></li>
+        <li class="nav-contact-container"><a href="contact.html" class="nav-contact">CONTACT</a></li>
+    </ul>
+    <div class="icons">
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-twitter"></a>
+    </div>
+  </div>
+  <div class="logo">
+    <img class="glogo2" src="images/glogo.png" alt="glazedandglorious">
         <section class="contactinfo">
-            <h2>Contact Info</h2>
-            <table>
+            <h2 class="contacth2">Contact Info</h2>
+            <table class="continf">
                 <tr>
                   <th>Email</th>
                   <th>Phone</th> 
@@ -39,9 +43,26 @@
                 </tr>
               </table>
         </section>
+        <div class="hours">
+          <h2 class="storeh2">Our Store Hours</h2>
+          <table>
+              <tr>
+                <th>Monday - Thursday</th>
+                <th>Friday</th> 
+                <th>Saturday</th>
+                <th>Sunday</th>
+              </tr>
+              <tr>
+                <td>8-9</td>
+                <td>8-8</td> 
+                <td>9-7</td>
+                <td>10-6</td>
+              </tr>
+            </table>
+      </div>
         <section class="contactbox">
             <form>
-                <h2>Get In Touch!</h2>
+                <h2 class="geth2">Get In Touch!</h2>
                 <div class="name">
                     <label for="name">Your Name</label><br>
                     <input type="text" id="name" name="name"><br>
@@ -57,35 +78,16 @@
                 <div>
                     <button type="submit">Send</button>
                 </div>
-                <div class="hours">
-                    <h2>Our Store Hours</h2>
-                    <table>
-                        <tr>
-                          <th>Monday - Thursday</th>
-                          <th>Friday</th> 
-                          <th>Saturday</th>
-                          <th>Sunday</th>
-                        </tr>
-                        <tr>
-                          <td>8-9</td>
-                          <td>8-8</td> 
-                          <td>9-7</td>
-                          <td>10-6</td>
-                        </tr>
-                      </table>
-                </div>
                 <div class="map">
+                  <h2 class="map">Location</h2>
+                  <p style="text-align: center;">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.347045114475!2d-75.6895089137695!3d45.40234089892316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05b8e906647f%3A0xeac749ca1d4f707a!2s819%20Bank%20St%2C%20Ottawa%2C%20ON%20K1S%202H5!5e0!3m2!1sen!2sca!4v1667422487039!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
               </form>
-              <footer>
-                <div class="icons">
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-youtube"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                </div>
-                <p>&copy; Glazed and Glorious 2022</p>
-              </footer>
+        </div>
+        <footer>
+        <p class="footerp">&copy; Glazed and Glorious 2022</p>
+        </footer
         </section> 
 </body>
 </html>
