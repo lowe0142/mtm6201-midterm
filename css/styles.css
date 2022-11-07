@@ -390,3 +390,19 @@ input {
     margin: 0;
     padding: 0;
   }
+
+  /*MEDIA QUERIES FOR MOBILE*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    h1 {
+        color: palevioletred;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    h2 {
+        color: pink;
+        font-size: 25px;
+    }
+}
