@@ -281,54 +281,49 @@ a {
 /*Adds border box to comapny owners biography*/
 
 .gloria{
-    font-size: 1.8rem;
+    font-size: 20px;
     background-color: white;
-    height: 9.3rem;
-    width: 1500px;
-    border: 8px solid papayawhip;
+    width: 100%;
+    border: 3px solid papayawhip;
     margin: auto;
     margin-top: 20px;
 }
 
 /*Places photo gallery to left while spacing them evenly*/
 .room , .smile {
-    width: 20%;
-    height: 500px;
-    padding-left: 40px;
-    padding-top: 25px;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.storeimg {
+    display: flex;
+    padding-top: 20px;
 }
 /*Floats location information box to left, adds yellow border */
 .location {
+    font-size: 20px;
     background-color: white;
-    border: 8px solid papayawhip;
-    color: black;
-    border-style: ridge;
-    float:right;
-    width: 800px;
-    height: 300px;
-    margin-right: 200px;
-    font-size: 25px;
-    line-height: 50px;
-    margin-top: 10px;
-    padding-left: 15px;
+    width: 100%;
+    border: 3px solid papayawhip;
+    margin: auto;
+    margin-top: 20px;
 }
 /*Adds h2 padding to inlign with yellow text box under*/
 .hole {
-    padding-left: 20px;
+    padding-left: 180px;
+    color: pink;
 }
 /*Floats holy moley text to right of page*/
 .store {
-    padding-top: 30px;
+    padding-top: 20px;
     float: right;
+    margin: auto;
 }
 /*Edits social media link promo to center of page*/
 .checkout {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    width: 100%;
-    padding: 50px;
-    text-align: center;
-    padding-bottom: 30px;
+    padding-left: 180px;
+    color: pink;
 }
 /*Aligns table to center, adds pink and yellow background border*/
 table, th, td {
