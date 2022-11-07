@@ -48,8 +48,8 @@ h2 {
 .glogo2{
     width: 40%;
     position: absolute;
-    top: 50%;
-    left: 85%;
+    top: 150px;
+    right: 250px;
     transform: translate(-50%, -50%);
 }
 /*Sets h2 on top of pink background and ads a color and size*/
@@ -178,14 +178,14 @@ button {
     background-color: pink;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 30px;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
-    border-radius: 25px;
+    font-size: 10px;
+    border-radius: 20px;
     position: absolute;
-    right: 500px;
-    margin-top: 20px;
+    right: 100px;
+    margin-top: 5px;
 }
 /*Changes button color on hover*/
 button:hover {
@@ -332,7 +332,7 @@ a {
 table, th, td {
     border: 1px solid;
     border-color: palevioletred;
-    width: 100px;
+    width: 250px;
     background-color: papayawhip;
     margin: auto;
     text-align: center;
@@ -351,9 +351,12 @@ input {
     border: 1px solid;
     border-color: palevioletred;
     height: 100px;
-    width:100%;
+    width: 80%;
     background-color: papayawhip;
     margin: auto;
+}
+.map {
+    margin-top: 30px;
 }
 .skip-links a{
     position: absolute;
