@@ -332,8 +332,7 @@ a {
 table, th, td {
     border: 1px solid;
     border-color: palevioletred;
-    height: 50px;
-    width: 800px;
+    width: 100px;
     background-color: papayawhip;
     margin: auto;
     text-align: center;
@@ -345,14 +344,14 @@ table, th, td {
 /*Edits input area for costumer communication*/
 input {
     width: 95%;
-    height: 200px;
+    height: 60px;
 }
 /*Adds border around input form*/
 .name , .email , .message {
     border: 1px solid;
     border-color: palevioletred;
-    height: 250px;
-    width: 1000px;
+    height: 100px;
+    width:100%;
     background-color: papayawhip;
     margin: auto;
 }
