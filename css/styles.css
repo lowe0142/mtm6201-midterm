@@ -374,13 +374,18 @@ input {
   }
 /*MEDIA QUERIES FOR DESKTOP MODE*/
   @media screen and (min-width: 760px) {
+    .mainh1 {
+        font-size: 40px;
+    }
+      .topnav a {
+        font-size: 20px;
+        padding-left: 40px;
+      }
     .logoh2 {
         font-size: 3rem;
         position: absolute;
         top: 20%;
         left: 320px;
-
-
     }
 
     .glogo {
@@ -427,5 +432,5 @@ input {
     .socialpromo {
         width: 100%;
     }
-    
+
   }
