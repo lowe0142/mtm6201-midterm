@@ -14,7 +14,7 @@ h1 {
 /*Sets h2 properties like colour and font size*/
 h2 {
     color: pink;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 /*Establishes width and height of the pink background*/
@@ -207,52 +207,40 @@ a {
 /*Opening image on about page, center*/
 .display { 
     width: 100%;
-    height: 700px;
-    margin-top: 10px;
 }
 /*Story h1, centered to place over display image*/
 .story {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 35%;
+    left: 300px;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 80px;
-}
-/*Changes font size*/
-.creating {
     font-size: 30px;
 }
 /*Adds two images of baking to right of page*/
 .whip , .bake {
-    width: 20%;
-    height: 500px;
-    float:right;
-    padding-top: 25px;
-    padding-right: 40px;
+    width: 250px;
+    height: 300px;
+    margin: auto;
 }
-.whip {
-    margin-right: 30px;
+.bakeimg {
+    display: flex;
 }
 /*Edits h2 class and places over banner image*/
 .creates {
     background-color: white;
-    border: 8px solid papayawhip;
+    border: 3px solid papayawhip;
     border-style: ridge;
-    width: 800px;
-    height: 300px;
-    margin-left: 75px;
-    font-size: 25px;
-    line-height: 50px;
-    margin-top: 50px;
-    padding-left: 15px;
+    width: 100%;
+    font-size: 20px;
 }
 /*Edits p class and places over banner image*/
 .create {
-    padding-top: 40px;
-    padding-left: 95px;
+    padding-top: 10px;
+    padding-left: 180px;
     color: pink;
 }
+
 /*Edits bio section photo to place text overtop*/
 .bio {
     position: relative;
@@ -262,15 +250,14 @@ a {
 /*Edits bio section photo to place text overtop*/
 .biop {
     position: absolute;
-    top: 500px;
-    left: 1000px;
+    top: 180px;
+    left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 40px;
+    font-size: 20px;
 }
 /*Edits story section photo dimensions*/
 .bioback {
-    width: 70%;
-    height: 50%;
+    width: 100%;
     padding-top: 25px;
 }
 /*Configured headshot photos sizes*/
