@@ -58,10 +58,10 @@ h2 {
 .logoh2 {
     position: absolute;
     top: 30%;
-    left: 200px;
+    left: 250px;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 30px;
+    font-size: 40px;
 }
 /*Establishes width for image gallery*/
 .donut1 , .donut2 , .donut3 {
@@ -84,13 +84,13 @@ h2 {
     align-items: center;
     justify-items: center;
     background-color: papayawhip;
-    height: 150px;
+    height: 100px;
     margin-bottom: 25px;
 }
 /*Edits nav container by adding color and removing underline*/
 li a {
     text-decoration: none;
-    color: lightpink
+    color: lightpink;
 }
 /*Changes to underline and gold color when mouse hovers*/
 li a:hover{
@@ -106,7 +106,7 @@ ul {
 li {
     display: inline;
     padding: 50px;
-    font-size: 25px;
+    font-size: 15px;
 }
 /*Adds dimensions for logo and floats image to right of page*/
 .glogo {
