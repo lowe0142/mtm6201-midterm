@@ -9,32 +9,32 @@ body {
 /*Sets h1 properties like colour and font size*/
 h1 {
     color: palevioletred;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 /*Sets h2 properties like colour and font size*/
 h2 {
     color: pink;
-    font-size: 45px;
+    font-size: 10px;
 }
 
 /*Establishes width and height of the pink background*/
 .pinkback {
     width: 100%;
-    max-height: 800px;
+    max-height: 600px;
 }
 
 /*Adds a border to the text box beside logo*/
 .infologo {
     border: 4px solid papayawhip;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 30%;
-    transform: translate(-50%, -50%);
+    transform: translate(-10%, -10%);
     color: palevioletred;
-    font-size: 40px;
-    width: 1000px;
-    height: 200px;
+    font-size: 20px;
+    width: 300px;
+    height: 150px;
     background-color: white
 }
 
@@ -42,7 +42,7 @@ h2 {
 .glogo{
     width: 40%;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 75%;
     transform: translate(-50%, -50%);
 }
@@ -58,20 +58,20 @@ h2 {
 .logoh2 {
     position: absolute;
     top: 30%;
-    left: 500px;
+    left: 200px;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 70px;
+    font-size: 30px;
 }
 /*Establishes width for image gallery*/
 .donut1 , .donut2 , .donut3 {
-    width: 400px;
-    height: 500px;
+    width: 200px;
+    height: 300px;
 }
 /*Sets dimensions for banner image*/
 .bannerimg {
-    width: 80%;
-    height: 700px;
+    width: 100%;
+    height: 400px;
 }
 /*Dimensions for instagram social gallery layout*/
 .instapromo , .instapromo2 , .instapromo3 , .instapromo4 , .instapromo5 , .instapromo6{
@@ -134,7 +134,7 @@ li {
     grid-template-columns: auto auto auto; 
     justify-content: center;
     align-content: center; 
-    margin-left: 90px;
+    margin-left: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
     justify-content: space-evenly;
@@ -148,20 +148,20 @@ li {
 /*Edits h2 class and places over banner image*/
 .donutmind {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 50px;
+    font-size: 30px;
   }
 /*Edits h2 class and places over banner image*/
   .domind {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
-    font-size: 30px;
+    font-size: 20px;
   }
 /*Adds yellow background to social media promo text and aligns center*/
 .socialpromo {
