@@ -11,6 +11,9 @@ h1 {
     color: palevioletred;
     font-size: 20px;
 }
+.mainh1 {
+    padding-left: 20px;
+}
 /*Sets h2 properties like colour and font size*/
 h2 {
     color: pink;
