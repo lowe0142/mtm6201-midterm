@@ -382,16 +382,16 @@ input {
         padding-left: 40px;
       }
     .logoh2 {
-        font-size: 3rem;
+        font-size: 50px;
         position: absolute;
-        top: 20%;
-        left: 320px;
+        top: 30%;
+        left: 350px;
     }
 
     .glogo {
         width: 50rem ;
         position: absolute;
-        top: 350px;
+        top: 400px;
         left: 75%;
     }
 
@@ -402,14 +402,12 @@ input {
     .infologo {
         border: 6px solid papayawhip;
         position: absolute;
-        top: 300px;
+        top: 350px;
         left: 200px;
-        transform: translate(-20%, -20%);
-        color: palevioletred;
         font-size: 20px;
         width: 700px;
-        height: 80px;
-        background-color: white;
+        height: 100px;
+        line-height: 30px;
     }
 
     .gallery {
