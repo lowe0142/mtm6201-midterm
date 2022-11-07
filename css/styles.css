@@ -325,6 +325,9 @@ a {
     padding-left: 180px;
     color: pink;
 }
+.icons {
+    padding-left: 50px;
+}
 /*Aligns table to center, adds pink and yellow background border*/
 table, th, td {
     border: 1px solid;
