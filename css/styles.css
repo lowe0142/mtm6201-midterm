@@ -11,7 +11,6 @@ h1 {
     color: palevioletred;
     font-size: 20px;
 }
-
 /*Sets h2 properties like colour and font size*/
 h2 {
     color: pink;
@@ -21,29 +20,28 @@ h2 {
 /*Establishes width and height of the pink background*/
 .pinkback {
     width: 100%;
-    max-height: 600px;
 }
 
 /*Adds a border to the text box beside logo*/
 .infologo {
     border: 4px solid papayawhip;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 30%;
-    transform: translate(-10%, -10%);
+    transform: translate(-20%, -20%);
     color: palevioletred;
-    font-size: 20px;
-    width: 300px;
-    height: 150px;
-    background-color: white
+    font-size: 10px;
+    width: 250px;
+    height: 50px;
+    background-color: white;
 }
 
 /*Sets logo to the right of page and sets a width*/
 .glogo{
-    width: 40%;
+    width: 20%;
     position: absolute;
     top: 30%;
-    left: 75%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -57,25 +55,25 @@ h2 {
 /*Sets h2 on top of pink background and ads a color and size*/
 .logoh2 {
     position: absolute;
-    top: 30%;
-    left: 250px;
+    top: 20%;
+    left: 180px;
+    justify-content: center;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 40px;
+    font-size: 15px;
 }
 /*Establishes width for image gallery*/
 .donut1 , .donut2 , .donut3 {
-    width: 200px;
-    height: 300px;
+    width: 100%;
 }
 /*Sets dimensions for banner image*/
 .bannerimg {
     width: 100%;
-    height: 400px;
 }
+
 /*Dimensions for instagram social gallery layout*/
 .instapromo , .instapromo2 , .instapromo3 , .instapromo4 , .instapromo5 , .instapromo6{
-    width: 200px;
+    width: 100px;
 }
 /*Establishes yellow background for Meet The Owner and aligns text to center*/
 .banner {
@@ -84,38 +82,31 @@ h2 {
     align-items: center;
     justify-items: center;
     background-color: papayawhip;
-    height: 100px;
-    margin-bottom: 25px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 /*Edits nav container by adding color and removing underline*/
-li a {
-    text-decoration: none;
+.topnav {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
     color: lightpink;
-}
-/*Changes to underline and gold color when mouse hovers*/
-li a:hover{
-    text-decoration: underline;
-    color:goldenrod;
-
-}
-/*Removes underline*/
-ul {
-    list-style-type: none;
-}
-/*Establishes font size and inlines list items*/
-li {
-    display: inline;
-    padding: 50px;
+    text-decoration: none;
     font-size: 15px;
-}
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: goldenrod;
+    color: white
+  }
 /*Adds dimensions for logo and floats image to right of page*/
 .glogo {
-    width: 60%;
+    width: 50%;
     float: right;
-    padding: 10px;
-    padding-top: 20px;
-    margin-top: 60px;
-    padding-bottom: 10px;
 }
 /*Adds animation sequence and opacity on logo hover*/
 .glogo:hover {
@@ -134,7 +125,6 @@ li {
     grid-template-columns: auto auto auto; 
     justify-content: center;
     align-content: center; 
-    margin-left: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
     justify-content: space-evenly;
@@ -152,23 +142,23 @@ li {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 30px;
+    font-size: 20px;
   }
 /*Edits h2 class and places over banner image*/
   .domind {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
-    font-size: 20px;
+    font-size: 10px;
   }
 /*Adds yellow background to social media promo text and aligns center*/
 .socialpromo {
     background-color: papayawhip;
     margin-top: 25px;
     margin-bottom: 25px;
-    width: 100%;
+    width: 80%;
     padding: 50px;
     text-align: center;
 }
@@ -181,6 +171,7 @@ footer{
     margin: auto;
     padding-top: 25px;
     margin-top: 25px;
+    font-size: 10px;
 }
 /*Adds styling to form send button*/
 button {
@@ -195,7 +186,6 @@ button {
     position: absolute;
     right: 500px;
     margin-top: 20px;
-
 }
 /*Changes button color on hover*/
 button:hover {
@@ -302,16 +292,17 @@ a {
     display: flex;
 }
 /*Adds border box to comapny owners biography*/
-.gloria {
-    font-size: 30px;
-    background-color: white
-    height: 150px;
+
+.gloria{
+    font-size: 1.8rem;
+    background-color: white;
+    height: 9.3rem;
     width: 1500px;
     border: 8px solid papayawhip;
-    border-style: ridge;
     margin: auto;
     margin-top: 20px;
 }
+
 /*Places photo gallery to left while spacing them evenly*/
 .room , .smile {
     width: 20%;
@@ -391,3 +382,5 @@ input {
     margin: 0;
     padding: 0;
   }
+
+  
