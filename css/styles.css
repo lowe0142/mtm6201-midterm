@@ -430,5 +430,12 @@ input {
     .socialpromo {
         width: 100%;
     }
-
+    .display {
+        height: 400px;
+    }
+    .story {
+        font-size: 40px;
+        top: 50%;
+        left: 50%;
+    }
   }
