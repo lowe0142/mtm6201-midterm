@@ -438,4 +438,46 @@ input {
         top: 50%;
         left: 50%;
     }
+    .create{
+        font-size: 30px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    .whip , .bake {
+        width: 250px;
+        height: 300px;
+        margin: 20px;
+        margin-left: 25%;
+    }
+    .bake {
+        margin-left: 25px;
+    }
+    .bioback {
+        height: 600px;
+    }
+    .biop {
+        font-size: 25px;
+        top: 50%;
+    }
+    .meet , .hole {
+        font-size: 30px;
+    }
+    .hole {
+      padding-left: 450px;
+    }
+
+    .room , .smile {
+        width: 250px;
+        height: 300px;
+        margin: 20px;
+        margin-left: 25%;
+    }
+
+    .room {
+        margin-left: 25px;
+    }
+    .checkout {
+        margin-left: 300px;
+    }
   }
