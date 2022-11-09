@@ -150,11 +150,11 @@ h2 {
 /*Edits h2 class and places over banner image*/
   .domind {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
-    font-size: 10px;
+    font-size: 12px;
   }
 /*Adds yellow background to social media promo text and aligns center*/
 .socialpromo {
@@ -389,10 +389,10 @@ input {
     }
 
     .glogo {
-        width: 50rem ;
+        width: 40rem ;
         position: absolute;
         top: 400px;
-        left: 75%;
+        left: 80%;
     }
     .glogo2 {
         width: 40%;
@@ -402,7 +402,7 @@ input {
     }
 
     .pinkback {
-        height: 600px;
+        height: 500px;
     }
 
     .infologo {
@@ -431,7 +431,8 @@ input {
         font-size: 35px;
     }
     .domind {
-        font-size: 20px;
+        font-size: 25px;
+        color: white;
     }
     .socialpromo {
         width: 100%;
@@ -496,4 +497,4 @@ input {
         font-size: 12px;
         margin-right: 15px;
     }
-  }
+}
