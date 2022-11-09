@@ -48,10 +48,10 @@ h2 {
 }
 
 .glogo2{
-    width: 40%;
+    width: 30%;
     position: absolute;
-    top: 150px;
-    right: 250px;
+    top: 130px;
+    right: 300px;
     transform: translate(-50%, -50%);
 }
 /*Sets h2 on top of pink background and ads a color and size*/
@@ -335,7 +335,7 @@ a {
 table, th, td {
     border: 1px solid;
     border-color: palevioletred;
-    width: 250px;
+    width: 400px;
     background-color: papayawhip;
     margin: auto;
     text-align: center;
