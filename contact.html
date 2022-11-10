@@ -15,9 +15,9 @@
   <ul class="skip-links">
     <li><a href="index.html">Skip to main content</a></li>
   </ul>
-  <div id="banner">
-    <h1 role="mainh1" >Glazed and Glorious</h1>
-    <div role="topnav">
+  <div class="banner">
+    <h1 class="mainh1" >Glazed and Glorious</h1>
+    <div class="topnav">
         <!-- Centered link -->
         <div class="topnav-centered">
           <a href="index.html" class="active">Home</a>
@@ -52,9 +52,9 @@
                   <th>Address</th>
                 </tr>
                 <tr>
-                  <td itemprop="email">glazedglo@gmail.com</td>
-                  <td itemprop="phone" >613-224-7683</td> 
-                  <td itemscope itemprop="adress">819 Bank St, Ottawa, ON K1S 3V7</td>
+                  <td>glazedglo@gmail.com</td>
+                  <td >613-224-7683</td> 
+                  <td itemscope itemtype="https://schema.org/PostalAddress">819 Bank St, Ottawa, ON K1S 3V7</td>
                 </tr>
               </table>
         </section>
@@ -77,9 +77,9 @@
             </table>
       </div>
       <!--Adds contact box form for costumers to reach to company-->
-        <section role="contactbox">
+        <section class="contactbox">
             <form>
-                <h2 role="geth2">Get In Touch!</h2>
+                <h2 class="geth2">Get In Touch!</h2>
                 <div class="name">
                     <label for="yourname">Your Name</label><br>
                     <input type="fullname" id="name" name="name"><br>
@@ -90,7 +90,7 @@
                 </div>
                 <div class="message">
                     <label for="yourmessage">Your Message</label><br>
-                    <input type="message" id="message" name="message"><br>
+                    <input type="text" id="message" name="message"><br>
                 </div>
                 <div>
                   <!--Inserts send button-->
