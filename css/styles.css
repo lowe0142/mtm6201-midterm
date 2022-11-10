@@ -214,7 +214,7 @@ a {
 /*Story h1, centered to place over display image*/
 .story {
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -438,7 +438,7 @@ input {
         width: 100%;
     }
     .display {
-        height: 400px;
+        height: 500px;
     }
     .story {
         font-size: 40px;
