@@ -358,15 +358,18 @@ input {
     background-color: papayawhip;
     margin: auto;
 }
+/*Adds margin top to map*/
 .map {
     margin-top: 30px;
 }
+/*Adds accessibility link to jump from page items*/
 .skip-links a{
     position: absolute;
     top: -3em;
     background-color: black;
     color:white;
 }
+/*Adds accessibility to jump from page items*/
 .skip-links{
     list-style: none;
     margin: 0;
@@ -374,37 +377,41 @@ input {
   }
 /*MEDIA QUERIES FOR DESKTOP MODE*/
   @media screen and (min-width: 760px) {
+    /*Resizes main h1 for desktop*/
     .mainh1 {
         font-size: 40px;
     }
+     /*Resizes nav for desktop*/
       .topnav a {
         font-size: 20px;
         margin-left: 50px;
       }
+    /*Resizes logo h2 item for desktop*/
     .logoh2 {
         font-size: 50px;
         position: absolute;
         top: 30%;
         left: 350px;
     }
-
+    /*Resizes logo to fit desktop*/
     .glogo {
         width: 40rem ;
         position: absolute;
         top: 400px;
         left: 70%;
     }
+     /*Resizes second logo on contact for desktop*/
     .glogo2 {
         width: 35%;
         top: 270px;
         right: 750px;
         transform: translate(-50%, -50%);
     }
-
+    /*Resizes pink background image for desktop*/
     .pinkback {
         height: 500px;
     }
-
+    /*Resizes info box and paragraph sizing for desktop*/
     .infologo {
         border: 6px solid papayawhip;
         position: absolute;
@@ -415,84 +422,99 @@ input {
         height: 100px;
         line-height: 30px;
     }
-
+    /*Adjusts gallery sizing and margins for desktop*/
     .gallery {
         width: 60%;
         margin: auto;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-
+    /*Resizes banner image for desktop*/
     .bannerimg {
         width: 90%;
         height: 500px;
     }
+     /*Adjusts white text font size for desktop*/
     .donutmind {
         font-size: 35px;
     }
+    /*Adjusts white text font size for desktop*/
     .domind {
         font-size: 25px;
         color: white;
     }
+    /*Adjusts social media text promo size for desktop*/
     .socialpromo {
         width: 100%;
     }
+    /*Adjusts donut image on about page for desktop*/
     .display {
         height: 500px;
     }
+    /*Adjusts text and placement for story description for desktop*/
     .story {
         font-size: 40px;
         top: 50%;
         left: 50%;
     }
+    /*Resizes font size for create paragraph section for desktop*/
     .create{
         font-size: 30px;
         padding-top: 5px;
         padding-left: 10px;
     }
-
+    /*Resizes two bakery image of store to fit desktop*/
     .whip , .bake {
         width: 250px;
         height: 300px;
         margin: 20px;
         margin-left: 30%;
     }
+    /*Adds padding to bakery image towards left*/
     .bake {
         margin-left: 30px;
     }
+    /*Resizes bio background for desktop*/
     .bioback {
         height: 600px;
         width: 90%;
     }
+    /*Adjusts font size for biography paragraph for desktop*/
     .biop {
         font-size: 25px;
         top: 50%;
     }
+    /*Resizes font for meet the owner and holy moley text*/
     .meet , .hole {
         font-size: 30px;
     }
+    /*Adds margin space left to center h2 */
     .hole {
       margin-left: 425px;
     }
-
+    /*Resizes store images to fit desktop*/
     .room , .smile {
         width: 250px;
         height: 300px;
         margin: 20px;
         margin-left: 30%;
     }
+   /*Adds margin space left to center pink room image  */
     .room {
         margin-left: 25px;
     }
+    /*Centers checkout text for instagram links */
     .checkout {
         margin-left: 450px;
     }
+    /*Adjusts table for contact page to refit desktop*/
     table, th, td {
         width: 600px;
         background-color: papayawhip;
         margin: auto;
         text-align: center;
     }
+    /*Makes font bigger for send button on contact page */
     button {
         font-size: 12px;
         margin-right: 15px;
