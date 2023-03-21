@@ -314,7 +314,8 @@ a {
 }
 /*Adds h2 padding to inlign with yellow text box under*/
 .hole {
-    padding-left: 180px;
+    display: flex;
+    justify-content: center;
     color: pink;
 }
 /*Floats holy moley text to right of page*/
