@@ -320,8 +320,8 @@ a {
 /*Floats holy moley text to right of page*/
 .store {
     padding-top: 20px;
-    float: right;
-    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 /*Edits social media link promo to center of page*/
 .checkout {
