@@ -314,14 +314,14 @@ a {
 }
 /*Adds h2 padding to inlign with yellow text box under*/
 .hole {
-    padding-left: 250px;
+    padding-left: 180px;
     color: pink;
 }
 /*Floats holy moley text to right of page*/
 .store {
     padding-top: 20px;
-    display: flex;
-    justify-content: center;
+    float: right;
+    margin: auto;
 }
 /*Edits social media link promo to center of page*/
 .checkout {
@@ -491,8 +491,7 @@ input {
     }
     /*Adds margin space left to center h2 */
     .hole {
-      display: felx;
-      justify-content: center;
+      margin-left: 425px;
     }
     /*Resizes store images to fit desktop*/
     .room , .smile {
